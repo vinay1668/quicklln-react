@@ -1,0 +1,107 @@
+.dashboardHeading {
+    margin-bottom: 10px !important;
+}
+
+.dashboard {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.box {
+    border: 0.5px solid #808080;
+    min-width: 18vw;
+    min-height: 18vh;
+    padding: 20px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.box h5 {
+    font-weight: 500;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.data {
+    display: flex;
+    align-items: center;
+    color: #C622FF;
+}
+
+.appointments {
+    padding: 10px;
+    border: 0.5px solid #808080;
+    width: auto;
+    margin-top: 25px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.appointments h5 {
+    font-weight: 500;
+    margin: 5px
+}
+
+.list {
+    height: 50vh;
+    overflow-y: scroll;
+    scrollbar-width: thin;
+    scrollbar-color: transparent transparent;
+}
+
+.appointments li {
+    background: #F5F5F5;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: auto;
+}
+
+.MuiAvatar-root {
+    margin-right: 20px;
+}
+
+.listItem {
+    border: 0.5px solid #808080;
+    width: 1058px;
+    height: 70px;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+.listItem button {
+    background-color: #333333;
+}
+
+.details {
+    display: flex;
+    align-items: center;
+    color: #C622FF;
+}
+
+.details span {
+    padding: 4px 12px 4px 12px;
+    border-radius: 5px;
+    background: #F4D3FF;
+}
+.details p {
+    font-size: 16px;
+    color: #C622FF;
+    margin: 5px;
+}
+.duration{
+    display: flex;
+    align-items: center;
+}
+.duration p {
+    color: #C622FF;
+    margin: 5px;
+}
+.price{
+    color: #C622FF;
+}
+.css-konndc-MuiListItemText-root{
+    width:2.5vw;
+}

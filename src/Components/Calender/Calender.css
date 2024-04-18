@@ -1,0 +1,69 @@
+.CalenderView h4{
+    margin-left: 10px;
+    margin-bottom: 10px !important;
+}
+.calender{
+    scrollbar-width: thin;
+    scrollbar-color: transparent transparent;
+    padding:10px;
+    border: 0.5px solid #808080;
+    border-radius: 20px;
+    height:600px;
+}
+.rbc-toolbar{
+    display: none;
+}
+.rbc-time-view ,.rbc-time-view-resources .rbc-time-header-gutter{
+    border: none;
+}
+.rbc-time-view .rbc-allday-cell{
+    display: none;
+}
+.rbc-time-header.rbc-overflowing{
+    border-right:none ;
+    gap:5px;
+    margin-bottom: 10px;
+}
+.rbc-time-header-content {
+    border-left: none;
+}
+.rbc-time-header-content > .rbc-row.rbc-row-resource {
+    border: none;
+}
+.rbc-header{
+    border-bottom: none;
+}
+.rbc-time-content{
+    border:none;
+}
+.rbc-time-content .rbc-time-gutter{
+    border-right: none;
+}
+.rbc-time-content .rbc-time-gutter .rbc-timeslot-group{
+    border-bottom: none;
+    min-height:60px;
+}
+.rbc-today{
+    background-color: #FFF;
+}
+.rbc-time-column .rbc-timeslot-group{
+    border: none;
+}
+.rbc-time-content > * + * > * {
+    border: none;
+}
+.rbc-day-slot .rbc-time-slot{
+    border-top: 0.5px solid #d9d9d9;
+    margin:5px;
+    min-height:20px;
+}
+.rbc-day-slot .rbc-events-container {
+    margin-right: 0px;
+}
+.rbc-day-slot .rbc-event{
+    border-radius: 10px;
+    /* background: #F4D3FF; */
+    padding: 2px 5px 2px 10px;
+    border:none;
+    color:black;
+}

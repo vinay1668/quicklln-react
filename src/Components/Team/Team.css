@@ -1,0 +1,27 @@
+.team {width: 100%;
+    min-height:80vh ;
+    border: 0.5px solid #808080;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.teamHeading{
+    display:flex;
+    justify-content: space-between;
+    margin:10px;
+}
+.teamHeading button{
+    background-color: #C622FF;
+    color:#FFF;
+    border-radius: 10px;
+    text-transform: none;
+    font-weight: 600;
+}
+.teamHeading button:hover{
+    background-color: #C622FF;
+}
+.teamHeading svg{
+    margin-right: 3px;
+    font-weight: bold;
+}
