@@ -116,7 +116,7 @@ const Dashboard = () => {
           {appointmentsData.map((appointment) => (
             <ListItem key={appointment.id} className="listItem">
               <CustomAvatar initials={appointment.name.charAt(0)}></CustomAvatar>
-              <ListItemText
+              <ListItemText className="name"
                 primary={appointment.name}
                 secondary={appointment.phone}
               />

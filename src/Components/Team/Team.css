@@ -25,3 +25,55 @@
     margin-right: 3px;
     font-weight: bold;
 }
+.teamList{
+    height: 80vh;
+    overflow-y: scroll;
+    scrollbar-width: thin;
+    scrollbar-color: transparent transparent;
+}
+.MuiAvatar-root {
+    margin-right: 20px;
+}
+.teamList li{
+    background: #F5F5F5;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: auto;
+}
+.teamListItem{
+    border: 0.5px solid #808080;
+    height: 70px;
+    border-radius: 10px;
+    margin: 5px;
+}
+.name p{
+    text-decoration: underline;
+}
+.ratings{
+    display: flex;
+    align-items: center;
+}
+li .showButton{
+    color: #333333;
+    border-color: #333333;
+    font-weight: 500;
+    margin-right: 10px;
+}
+li .showButton:hover{
+    background-color: #333333;
+    color: #F5F5F5;
+}
+li .editButton{
+    background-color: #333333;
+}
+.status{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 0.5vw;
+}
+.status span {
+    padding: 4px 12px 4px 12px;
+    border-radius: 5px;
+}

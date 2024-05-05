@@ -1,0 +1,80 @@
+.services {width: 100%;
+    height:80vh ;
+    border: 0.5px solid #808080;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    overflow-y: scroll;
+    scrollbar-width: thin;
+    scrollbar-color: transparent transparent;
+}
+.serviceHeading{
+    display:flex;
+    justify-content: space-between;
+    margin:10px;
+}
+.serviceHeading button{
+    background-color: #C622FF;
+    color:#FFF;
+    border-radius: 10px;
+    text-transform: none;
+    font-weight: 500;
+}
+.serviceHeading button:hover{
+    background-color: #C622FF;
+}
+.serviceHeading svg{
+    margin-right: 3px;
+    font-weight: bold;
+}
+.serviceHeadingName{
+    display: flex;
+    align-items: center;
+}
+.categoryEditIcon {
+    background-color: #C622FF;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5px;
+  }
+  .categoryEditIcon svg {
+    margin-right: 0px;
+    color: #F5F5F5;
+    font-size: 16px;
+  }
+.categoryList li{
+    background: #F5F5F5;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: auto;
+}
+.categoryListItem{
+    border: 0.5px solid #808080;
+    height: 70px;
+    border-radius: 10px;
+    margin: 5px;
+}
+.categoryIcon{
+    color: #808080;
+    font-size: 24px;
+    margin:10px;
+}
+.categoryName span{
+    font-weight: 600 !important;
+}
+.categoryName span, 
+.categoryTime span,
+.categoryPrice span{
+    font-weight: 500;
+    font-size: 20px;
+    color: #333333;
+}
+.css-tlelie-MuiListItemText-root{
+    width: 2.5vw;
+}

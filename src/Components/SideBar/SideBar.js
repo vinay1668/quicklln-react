@@ -14,6 +14,7 @@ import Calender from '../Calender/Calender';
 import Team from '../Team/Team';
 import Services from '../Services/Services';
 import Client from '../Clients/Client';
+import Insights from '../Insights/Insights';
 const Sidebar = () => {
     const [isOpen, setIsOpen] = useState(false);
     const toggle = () => setIsOpen(!isOpen);
@@ -82,6 +83,7 @@ const Sidebar = () => {
                         <Route path="team" element={<Team></Team>}></Route>
                         <Route path="services" element={<Services></Services>}></Route>
                         <Route path="clients" element={<Client></Client>}></Route>
+                        <Route path="insights" element={<Insights></Insights>}></Route>
                     </Routes>
                 </div>
             </div>
